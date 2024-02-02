@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Card, CardHeader, CardBody, CardFooter } from '@nextui-org/react';
-import ClinicMap from './ClinicMap';
+import ClinicMap from './clinicmap.jsx';
 import { Clinic } from '@/types';
 
 const ClinicTabs: React.FC = () => {
